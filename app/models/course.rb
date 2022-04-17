@@ -18,5 +18,15 @@ class Course < ApplicationRecord
   #   require 'securerandom'
   #   @random_slug ||= persisted? ? friendly_id : SecureRandom.hex(4)
   # end
+  #
+  LANGUAGES = [:"English", :"Russian", :"Polish", :"Spanish"]
+  def self.languages
+    LANGUAGES.map { |language| [language, language] }
+  end
+
+  LEVELS = [:"Beginner", :"Intermediate", :"Advanced"]
+  def self.levels
+    LEVELS.map { |level| [level, level] }
+  end
 end
 
