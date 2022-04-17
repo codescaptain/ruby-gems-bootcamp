@@ -76,6 +76,7 @@
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.13.4, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v1.3.5, rbenv: 2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="public_activity (v1.6.4, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.7, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v5.6.4, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.6.0, rbenv: 2.7.2) [gem]" level="application" />
@@ -88,6 +89,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.4.2, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v6.1.5, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, rbenv: 2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ransack (v3.0.1, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.11.1, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.10.1, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.3.0, rbenv: 2.7.2) [gem]" level="application" />
