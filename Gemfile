@@ -26,7 +26,7 @@ gem 'simple_form'
 gem 'faker'
 gem 'devise'
 gem 'friendly_id', '~> 5.4.0'
-
+gem 'ransack'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
