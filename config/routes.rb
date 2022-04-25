@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  resources :lessons
+
   devise_for :users
-  resources :courses
+  resources :courses do
+    resources :lessons
+  end
   root 'static_pages#landing_pages'
   get 'static_pages/activity'
   get 'privacy_policy', to: 'static_pages#privacy_policy'

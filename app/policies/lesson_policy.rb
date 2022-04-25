@@ -22,7 +22,7 @@ class LessonPolicy < ApplicationPolicy
   end
 
   def create?
-    #@user.has_role?(:teacher)
+    @user.has_role?(:admin) || @record.course.user_id == @user.id
   end
 
   def destroy?
