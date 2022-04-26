@@ -1,8 +1,7 @@
 %h3
   .text-center
     Courses
-    .badge.badge-info
-      = @courses.count
+    = @courses.count
 %p
 
 .row
@@ -32,4 +31,6 @@
     .card-columns
       - @courses.each do |course|
         = render 'courses/course', course: course
+      %br
+      != pagy_bootstrap_nav(@pagy)
 %br
