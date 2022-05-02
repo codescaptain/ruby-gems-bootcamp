@@ -9,6 +9,8 @@ class User < ApplicationRecord
 
   after_create :assign_default_role
 
+  validate :must_have_a_role, on: :update
+
   extend FriendlyId
   friendly_id :email, use: :slugged
 
@@ -27,12 +29,9 @@ class User < ApplicationRecord
     self.email.split(/@/).first
   end
 
-  validate :must_have_a_role, on: :update
-
   def online?
-  updated_at > 2.minutes.ago
-end
-
+    updated_at > 2.minutes.ago
+  end
 
   private
 

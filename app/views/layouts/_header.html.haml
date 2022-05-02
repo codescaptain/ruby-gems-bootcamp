@@ -29,6 +29,14 @@
             = link_to static_pages_activity_path, class: 'nav-link' do
               .fa.fa-bell
               Activity
+          %li.nav-item{class: "#{'active font-weight-bold' if current_page?(static_pages_activity_path)}"}
+            = link_to root_path(locale: :tr), class: 'nav-link' do
+              .fa.fa-bell
+              Turkish
+          %li.nav-item{class: "#{'active font-weight-bold' if current_page?(static_pages_activity_path)}"}
+            = link_to root_path(locale: :en), class: 'nav-link' do
+              .fa.fa-bell
+              English
 
           %li.nav-item.dropdown
             %a#navbarDropdown.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", :href => "#", :role => "button"}
